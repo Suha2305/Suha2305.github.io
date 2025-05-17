@@ -1,13 +1,13 @@
-/* 🌸 Set Entire Page Background to White */
+/* White Background  */
 body {
-    background-color: #ffffff; /* Pure white background */
-    min-height: 100vh;
+    background-color: #ffffff; /* white background */
+    min-height: 100vh; /*windows height*/
     font-family: "Poiret One", sans-serif;
     font-weight: 600;
     overflow-x: hidden;
 }
 
-/* 🎀 FAQ Banner Styling */
+/* FAQ Banner */
 #faq-banner {
     position: relative;
     width: 100%;
@@ -16,9 +16,9 @@ body {
     margin-left: -20px;
 }
 
-/* 🌥️ Banner Image Styling */
+/*  Banner Image  */
 .banner-container img {
-    width: 100vw; /* Covers full width */
+    width: 100vw; /*windows width*/
     height: auto;
     object-fit: cover;
     margin-top: 100px;
@@ -26,7 +26,7 @@ body {
     border-top-left-radius: 100px; /* Creates curve on top-left */
 }
 
-/* 🌸 Pink Box Styling */
+/*  Heading Box */
 .pink-box {
     position: absolute;
     top: 60px;
@@ -40,7 +40,7 @@ body {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* 🌟 Navigation Links (Fixed to Stay on the Right Side) */
+/* Navigation Links  */
 .nav-links {
     position: absolute;
     top: 60px;  /* Aligns with the pink box */
@@ -58,13 +58,13 @@ body {
 }
 
 .nav-links a:hover {
-    color: #4c2449;
+    color: #4c2449; /*  colour changing when hovered */
 }
 
 
 
 
-/* 📌 FAQ Section Heading */
+/* FAQ Section Heading */
 .faq-heading {
     text-align: center;
     font-size: 36px;
@@ -73,26 +73,26 @@ body {
     margin-bottom: 40px;
 }
 
-/* 🎀 FAQ Container */
+/* FAQ Container */
 .faq-container {
     max-width: 600px;
     margin: auto;
 }
 
-/* 🏷️ FAQ Questions */
+/* FAQ Questions */
 .faq-question {
     font-size: 24px;
     font-weight: bold;
     color: #753b61;
 }
 
-/* 🌟 FAQ Answers */
+/* FAQ Answers */
 .faq-answer {
     font-size: 18px;
     color: #555;
 }
 
-/* ➖ Divider Between FAQ Items */
+/* Divider lines Between FAQ Q&A */
 .faq-divider {
     border: 1px solid #ddd;
     margin: 20px 0;
@@ -131,7 +131,7 @@ body {
     height: auto;
 }
 
-/* "Upward ↑" Navigation */
+/* Upward Navigation */
 .footer-nav {
     text-align: right;
 }
@@ -139,7 +139,7 @@ body {
 .footer-nav a {
     color: black;
     font-size: 18px;
-    text-decoration: underline; /* Underlines "Upward ↑" */
+    text-decoration: underline; /* Underlines Upward */
     font-weight: bold;
 }
 
@@ -163,7 +163,7 @@ body {
     padding: 10px 0;
 }
 
-/* Quick Links Styling */
+
 .quick-links a {
     text-decoration: none;
     color: black;
@@ -175,17 +175,17 @@ body {
 .light-divider {
     border: none;
     height: 1px;
-    background-color: #cecece; /* Light grey for subtle separation */
+    background-color: #cecece; /* Light grey */
     margin: 5px 0;
 }
 
 
 
 
-/* Second Footer: Socials */
+/* 2nd Socials */
 #socials-footer {
     width: 100%;
-    background-color: #800080; /* Essence purple */
+    background-color: #800080; 
     padding: 30px;
     text-align: center;
     color: white;
