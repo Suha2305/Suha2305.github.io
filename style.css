@@ -69,9 +69,9 @@ nav ul li a:hover {
 
 /* Cover section */
 #cover {
-    width: 90%; /* Space on left and right */
+    width: 90%; 
     margin: auto;
-    padding-top: 70px; /* Space for fixed nav */
+    padding-top: 70px; 
 }
 
 #cover img {
@@ -612,7 +612,7 @@ main {
 
 
 
-/* 🌈 Apply background ONLY to explore.html */
+/* Apply background ONLY to explore.html */
 .explore-page {
     background: url('clouds\ background.png'); /* Ensure the path matches your image */
     background-size: cover; /* Ensures full coverage */
@@ -636,7 +636,7 @@ main {
 }
 
 
-/* 🎀 Hero Banner Styling */
+/* Hero Banner Styling */
 .explore-page #hero-banner {
     width: 100%;
     display: flex;
@@ -646,14 +646,14 @@ main {
     position: relative;
 }
 
-/* 🏠 Banner Container */
+/* Banner Container */
 .explore-page .banner-container {
     width: 100%;
     text-align: center;
     position: relative;
 }
 
-/* 🌥️ Banner Image Styling */
+/* Banner Image Styling */
 .explore-page .banner-container img {
     width: 100vw; /* Covers full width */
     height: auto; /* Maintains proportions */
@@ -663,7 +663,7 @@ main {
     border-top-left-radius: 100px; /* Creates curve on top-left */
 }
 
-/* 🌸 Pink Box for Heading */
+/*  Box for Heading */
 .explore-page .pink-box {
     position: absolute;
     top: 60px; /* Moves the heading closer to the curve */
@@ -677,7 +677,7 @@ main {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
-/* 🌟 Navigation Links (Fixed to Stay on the Right Side) */
+/* Navigation Links (Fixed to Stay on the Right Side) */
 .explore-page .nav-links {
     position: absolute;
     top: 60px;  /* Aligns with the pink box */
@@ -699,7 +699,7 @@ main {
 }
 
 
-/* 🎨 Product Section Styling */
+/* Product Section Styling */
 .explore-page #explore-products {
     width: 80%;
     max-width: 1200px;
@@ -727,7 +727,7 @@ main {
 }
 
 
-/* ✨ CTA Buttons */
+/* CTA Buttons */
 .explore-page .cta-container {
     text-align: center;
     padding: 30px;
@@ -750,7 +750,7 @@ main {
 
 
 
-/* 🌙 Shadow Effect for Images */
+/*  Shadow Effect for Images */
 .explore-page .shadow-container {
     position: relative;
     display: flex;
@@ -793,7 +793,7 @@ main {
 }
 
 
-/* 🌈 Right-Aligned Text Beside Circles */
+/*  Right-Aligned Text Beside Circles */
 .explore-page .text-container.right-align {
     position: absolute;
     right: 0px; /* Moves it beside the circles */
@@ -802,14 +802,14 @@ main {
     text-align: left;
 }
 
-/* 🎨 Heading Styling */
+/*  Heading Styling */
 .explore-page .text-container h2 {
     font-size: 40px;
     font-weight: bold;
     color: #753b61; /* Deep pinkish-purple */
 }
 
-/* ✨ Short Description */
+/*  Short Description */
 .explore-page .text-container p {
     font-size: 24px;
     color: #444; /* Soft gray for readability */
@@ -820,7 +820,7 @@ main {
 
 
 
-/* 🌙 Glow Effect for Images */
+/*  Glow Effect for Images */
 .explore-page .glow-container {
     position: relative;
     display: flex;
@@ -851,7 +851,7 @@ main {
     right: 300px; /* Moves it slightly to the left */
 }
 
-/* 🔵 Decorative Circle Underneath */
+/*  Decorative Circle Underneath */
 .explore-page .decorative-glow {
     width: 250px; /* Slightly larger than glow 1 */
     height: 250px;
@@ -863,7 +863,7 @@ main {
     z-index: -1; /* Places it behind the other circles */
 }
 
-/* 🌈 Left-Aligned Text Beside Circles */
+/* Left-Aligned Text Beside Circles */
 .explore-page .text-container.left-glow {
     position: absolute;
     left: 10%; /* Positions it properly on the left */
@@ -873,14 +873,14 @@ main {
     text-align: right;
 }
 
-/* 🎨 Heading Styling */
+/*  Heading Styling */
 .explore-page .text-container.left-glow h2 {
     font-size: 40px;
     font-weight: bold;
     color: #753b61; /* Deep pinkish-purple */
 }
 
-/* ✨ Short Description */
+/*  Short Description */
 .explore-page .text-container.left-glow p {
     font-size: 24px;
     color: #444; /* Soft gray for readability */
@@ -892,7 +892,7 @@ main {
 
 
 
-/* 🌙 Packaging Effect for Images */
+/*  Packaging Effect for Images */
 .explore-page .packaging-container {
     position: relative;
     display: flex;
@@ -922,7 +922,7 @@ main {
     left: 300px; /* Moves it slightly to the right */
 }
 
-/* 🔵 Decorative Circle Underneath */
+/*  Decorative Circle Underneath */
 .explore-page .decorative-packaging {
     width: 250px; /* Slightly larger than packaging 1 */
     height: 250px;
@@ -934,7 +934,7 @@ main {
     z-index: -1; /* Places it behind the other circles */
 }
 
-/* 🌈 Right-Aligned Text Beside Circles */
+/*  Right-Aligned Text Beside Circles */
 .explore-page .text-container.right-packaging {
     position: absolute;
     right: 10%; /* Moves it beside the circles */
@@ -943,7 +943,7 @@ main {
     text-align: left;
 }
 
-/* 🎨 Heading Styling */
+/*  Heading Styling */
 .explore-page .text-container.right-packaging h2 {
     font-size: 40px;
     font-weight: bold;
