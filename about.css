@@ -1,0 +1,225 @@
+/* 🌸 Set White Background */
+body {
+    background-color: #ffffff;
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* 📌 About Banner */
+#about-banner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.banner-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    border-top-left-radius: 100px;
+}
+
+/* 🏷️ About Section */
+#about-section {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* 🌟 Headings */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #753b61;
+    margin-bottom: 15px;
+}
+
+/* 📝 Text */
+p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* 🎀 Core Values List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    color: #753b61;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+
+/* 🌸 Pink Box Styling */
+.pink-box {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    background-color: #ffb6df;
+    padding: 18px 30px;
+    border-bottom-right-radius: 50px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #753b61;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌟 Navigation Links (Fixed to Stay on the Right Side) */
+.nav-links {
+    position: absolute;
+    top: 60px;  /* Aligns with the pink box */
+    right: 80px; /* Ensures placement on the right */
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #753b61;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #4c2449;
+}
+
+/* Footer Section */
+#footer {
+    width: 100%;
+    padding: 30px;
+    text-align: left; /* Aligns everything to the left */
+    color: black; /* Neutral styling */
+    margin-left: -30px;
+}
+
+/* Divider Lines */
+.footer-divider {
+    border: none;
+    height: 2px;
+    background-color: #aaa; /* Darker separator */
+    margin: 40px 0;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    bottom: 20px;
+}
+
+/* Logo */
+.footer-logo img {
+    width: 120px; /* Adjust logo size */
+    height: auto;
+}
+
+/* "Upward ↑" Navigation */
+.footer-nav {
+    text-align: right;
+}
+
+.footer-nav a {
+    color: black;
+    font-size: 18px;
+    text-decoration: underline; /* Underlines "Upward ↑" */
+    font-weight: bold;
+}
+
+/* Quick Links Section */
+.quick-links {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.quick-links h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    padding: 10px 0;
+}
+
+/* Quick Links Styling */
+.quick-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Light Divider Between Quick Links */
+.light-divider {
+    border: none;
+    height: 1px;
+    background-color: #cecece; /* Light grey for subtle separation */
+    margin: 5px 0;
+}
+
+
+
+
+/* Second Footer: Socials */
+#socials-footer {
+    width: 100%;
+    background-color: #800080; /* Essence purple */
+    padding: 30px;
+    text-align: center;
+    color: white;
+    margin-left: -30px;
+    margin-bottom: -20px;
+}
+
+/* Socials Heading */
+.socials-container h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+/* Ensure All Icons Are the Same Size */
+.social-icons a img {
+    width: 30px; /* Fixed width for consistency */
+    height: 30px; /* Fixed height to prevent resizing */
+    object-fit: cover; /* Ensures uniform appearance */
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+
+/* Copyright */
+.copyright {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: white;
+}
