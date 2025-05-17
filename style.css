@@ -1,0 +1,958 @@
+/* General reset */
+body, html {
+    overflow-x: hidden; /* Hides horizontal scrolling */
+    width: 100%; /* Ensures content stays within viewport */
+    margin: 0;
+    padding: 0;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+}
+
+/* Navbar styling */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #800080; /* Essence purple */
+    padding: 25px 0; /* Increased padding for a bigger navbar */
+    z-index: 1000;
+}
+
+/* Navbar container */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 15px 5%; /* Increased padding to make navbar larger */
+}
+
+/* Logo styling */
+#logo {
+    height: 60px; /* Increased logo size */
+    width: auto;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation links */
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White text for contrast */
+    padding: 10px;
+    font-size: 14px; /* Reduced font size for smaller text */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #6a006a; /* Slightly darker purple */
+    border-radius: 5px;
+}
+
+
+/* Cover section */
+#cover {
+    width: 90%; /* Space on left and right */
+    margin: auto;
+    padding-top: 70px; /* Space for fixed nav */
+}
+
+#cover img {
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+}
+
+/* Content sections */
+main {
+    padding: 50px;
+}
+
+
+/* Pixar launch section */
+#pixar-launch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 90%;
+    background-color: #ffe37c; /* Light background */
+    padding: 30px;
+    border-top-left-radius: 80px;
+    position: relative;
+}
+
+/* Image box positioning */
+.image-box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+/* Big circle */
+.big-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.big-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Small circle positioned on the right */
+.small-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    right: -40px;
+    top: 70%;
+    transform: translateY(-50%);
+    border: 3px solid #800080; /* Adds a clean border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #800080;
+}
+
+.small-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+/* Explore button */
+.explore-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #8bc3ff; /* Essence purple */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.explore-btn:hover {
+    background: #6a006a; /* Slightly darker purple */
+}
+
+/* Text section */
+.text-box {
+    flex: 1; /* Allows it to take up remaining space */
+    
+}
+
+.text-box h2 {
+    font-size: 40px;
+    color: #800080; /* Essence purple */
+    text-align: right;
+}
+
+.text-box p {
+    font-size: 24px;
+    color: #0066d3;
+    text-align: right;
+    
+}
+
+
+
+
+
+
+
+/* Proud Section */
+#proud-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+/* Main Container */
+.proud-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures text is on the left and circles on the right */
+    width: 80%;
+    position: relative;
+}
+
+
+/* Curved Rectangle */
+.curved-box {
+    width: 500px;
+    height: 300px;
+    background-color: #fff0f5;
+    padding: 20px;
+    border-top-right-radius: 100px;/* Creates the curved effect */
+    border-bottom-right-radius: 100px ;
+    color: rgb(0, 0, 0);
+}
+
+.curved-box h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    text-align: left;
+    color: #e21a7a;
+}
+
+.curved-box p {
+    font-size: 24px;
+    margin-left: 50px;
+    text-align: left;
+    color: #f5b3ba;
+}
+
+/* Circle Container (Right Side) */
+.circle-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+
+/*large circle*/
+.large-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ffe37c;
+    position: absolute;
+    left: -150px; /* Moves it further to the left */
+    top: -30px;  /* Moves it further up */
+}
+
+
+/* Medium Circle (Overlapping Large) */
+.medium-circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: -60px;
+    top: -30px;
+    background-color: #800080;
+}
+
+.medium-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Small Circle (Overlapping Both) */
+.small-circle-1 {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: -170px;
+    top: 50px;
+    background: none;
+}
+
+.small-circle-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+/* Video Section */
+.video-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.video-container {
+    width: 80%;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ffebcd; /* Light beige */
+
+    /* Center the container */
+    margin: 0 auto; /* Ensures it stays in the middle */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers child elements */
+}
+
+
+/* Header Section */
+.video-header {
+    display: flex;
+    justify-content: space-between; /* Ensures separation */
+    align-items: center;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+/* Heading */
+.video-header h2 {
+    font-size: 30px;
+    color: #800080; /* Essence purple */
+}
+
+/* YouTube Button */
+.yt-button {
+    background-color: #ff6699; /* Pink theme */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.yt-button:hover {
+    background-color: #d94e80; /* Slightly darker pink */
+}
+
+/* Divider Line */
+.video-divider {
+    border: none;
+    height: 2px;
+    background-color: #b0c1d4;
+    margin: 15px 0; /* Adds spacing */
+    width: 100%; /* Ensures full width */
+}
+
+/* Video Grid */
+.video-grid {
+    display: flex;
+    justify-content: space-between; /* Ensures videos stay side by side */
+    gap: 20px; /* Adds spacing between videos */
+    width: 100%;
+}
+
+/* Video Player */
+.video-grid video {
+    width: 22%; /* Ensures equal video sizes */
+    max-width: 400px; /* Prevents videos from getting too large */
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #fff; /* White border */
+}
+
+
+
+
+
+
+
+/* Instagram Section */
+#instagram-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+/* Container */
+.instagram-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures everything is centered */
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Heading Box */
+.instagram-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff6699;
+    border-radius: 20px 0 0 0;
+    color: white;
+    width: 90%; /* Matches the rest of the section */
+}
+
+
+/* Heading */
+.instagram-header h2 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+/* Instagram Button */
+.ig-button {
+    background-color: white;
+    color: #ff6699;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: background-color 0.3s;
+}
+
+.ig-button:hover {
+    background-color: #ffe6f2; /* Light pink on hover */
+}
+
+/* Gap between heading and image */
+.gap {
+    height: 20px;
+}
+
+/* Image Box */
+.instagram-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers image inside */
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%; /* Matches the container width */
+}
+
+
+.instagram-image-box img {
+    width: 100%; /* Makes the image fill the container */
+    max-width: 1500px; /* Increases max size */
+    height: auto;
+    border-radius: 10px; /* Keeps smooth edges */
+    background-color: #febcd2;
+}
+
+
+
+
+
+
+
+/* Footer Section */
+#footer {
+    width: 100%;
+    padding: 30px;
+    text-align: left; /* Aligns everything to the left */
+    color: black; /* Neutral styling */
+    margin-left: -15px;
+}
+
+/* Divider Lines */
+.footer-divider {
+    border: none;
+    height: 2px;
+    background-color: #aaa; /* Darker separator */
+    margin: 40px 0;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* Logo */
+.footer-logo img {
+    width: 120px; /* Adjust logo size */
+    height: auto;
+}
+
+/* "Upward ↑" Navigation */
+.footer-nav {
+    text-align: right;
+}
+
+.footer-nav a {
+    color: black;
+    font-size: 18px;
+    text-decoration: underline; /* Underlines "Upward ↑" */
+    font-weight: bold;
+}
+
+/* Quick Links Section */
+.quick-links {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.quick-links h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    padding: 10px 0;
+}
+
+/* Quick Links Styling */
+.quick-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Light Divider Between Quick Links */
+.light-divider {
+    border: none;
+    height: 1px;
+    background-color: #cecece; /* Light grey for subtle separation */
+    margin: 5px 0;
+}
+
+
+
+
+/* Second Footer: Socials */
+#socials-footer {
+    width: 100%;
+    background-color: #800080; /* Essence purple */
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+/* Socials Heading */
+.socials-container h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+/* Ensure All Icons Are the Same Size */
+.social-icons a img {
+    width: 30px; /* Fixed width for consistency */
+    height: 30px; /* Fixed height to prevent resizing */
+    object-fit: cover; /* Ensures uniform appearance */
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+
+/* Copyright */
+.copyright {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* 🌈 Apply background ONLY to explore.html */
+.explore-page {
+    background: url('clouds\ background.png'); /* Ensure the path matches your image */
+    background-size: cover; /* Ensures full coverage */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    min-height: 100vh; /* Covers full viewport */
+    overflow-x: hidden;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+}
+
+.explore-page::before {
+    content: "";
+    position: fixed; /* Use fixed to ensure it covers the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Force it to cover the whole height */
+    background: rgba(255, 182, 223, 0.3); /* Soft pink overlay */
+    z-index: -1; /* Ensures it stays behind content */
+}
+
+
+/* 🎀 Hero Banner Styling */
+.explore-page #hero-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+}
+
+/* 🏠 Banner Container */
+.explore-page .banner-container {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+/* 🌥️ Banner Image Styling */
+.explore-page .banner-container img {
+    width: 100vw; /* Covers full width */
+    height: auto; /* Maintains proportions */
+    object-fit: cover; /* Ensures full space */
+    margin-top: 100px; /* Moves the banner down */
+    padding-bottom: 20px;
+    border-top-left-radius: 100px; /* Creates curve on top-left */
+}
+
+/* 🌸 Pink Box for Heading */
+.explore-page .pink-box {
+    position: absolute;
+    top: 60px; /* Moves the heading closer to the curve */
+    left: 80px; /* Adjusts placement within the banner */
+    background-color: #ffb6df; /* Soft pink */
+    padding: 18px 30px; /* Adds more spacing inside */
+    border-bottom-right-radius: 50px; /* Rounded feel */
+    font-size: 26px; /* Larger heading */
+    font-weight: bold;
+    color: #753b61; /* Stylish text color */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* 🌟 Navigation Links (Fixed to Stay on the Right Side) */
+.explore-page .nav-links {
+    position: absolute;
+    top: 60px;  /* Aligns with the pink box */
+    right: -25px;/* Ensures placement on the right */
+    display: flex;
+    gap: 30px;
+}
+
+.explore-page .nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.explore-page .nav-links a:hover {
+    color: #4c2449;
+}
+
+
+/* 🎨 Product Section Styling */
+.explore-page #explore-products {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.explore-page .product-section {
+    margin-bottom: 40px;
+}
+
+.explore-page .product-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.explore-page .product-images img {
+    width: 200px; /* Keeps them uniform */
+    height: 200px; /* Ensures they stay proportionate */
+    border-radius: 50%; /* Makes them perfectly circular */
+    object-fit: cover; /* Ensures the images fill the space */
+    border: 3px solid #ffb6df; /* Soft pink border for extra style */
+}
+
+
+/* ✨ CTA Buttons */
+.explore-page .cta-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.explore-page .cta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #800080;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.explore-page .cta-button:hover {
+    background-color: #6a0080;
+}
+
+
+
+
+/* 🌙 Shadow Effect for Images */
+.explore-page .shadow-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns everything to the left */
+}
+
+/* Large Circle (shadow 1) */
+.explore-page .shadow-1 {
+    width: 400px; /* Large size */
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    object-fit: cover;
+    position: relative; /* Ensures proper stacking */
+}
+
+/* Smaller Circle (shadow 1.1) Overlapping */
+.explore-page .shadow-1-1 {
+    width: 250px; /* Smaller size */
+    height:250px;
+    border-radius: 50%;
+    box-shadow: -15px 15px 40px rgba(0, 0, 0, 0.15); /* Soft shadow */
+    object-fit: cover;
+    position: absolute; /* Overlaps the bigger circle */
+    top: 130px; /* Moves down slightly */
+    left: 300px; /* Moves it slightly to the right */
+}
+
+
+.explore-page .decorative-circle {
+    width: 250px; /* Slightly larger than shadow 1 */
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgb(255, 104, 190, 0.3); /* Soft pink */
+    position: absolute;
+    top: 30px; /* Adjust as needed */
+    left: 270px; /* Moves it slightly left */
+    z-index: -1; /* Places it behind the other circles */
+}
+
+
+/* 🌈 Right-Aligned Text Beside Circles */
+.explore-page .text-container.right-align {
+    position: absolute;
+    right: 0px; /* Moves it beside the circles */
+    top: 50px; /* Adjusts vertical placement */
+    max-width: 300px; /* Keeps text compact */
+    text-align: left;
+}
+
+/* 🎨 Heading Styling */
+.explore-page .text-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #753b61; /* Deep pinkish-purple */
+}
+
+/* ✨ Short Description */
+.explore-page .text-container p {
+    font-size: 24px;
+    color: #444; /* Soft gray for readability */
+    margin-top: 10px;
+}
+
+
+
+
+
+/* 🌙 Glow Effect for Images */
+.explore-page .glow-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+/* Large Circle (glow 1) */
+.explore-page .glow-1 {
+    width: 400px; /* Large size */
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 20px -20px 50px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    object-fit: cover;
+    position: relative; /* Ensures proper stacking */
+}
+
+/* Smaller Circle (glow 1.1) Overlapping */
+.explore-page .glow-1-1 {
+    width: 250px; /* Smaller size */
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 15px -15px 40px rgba(0, 0, 0, 0.15); /* Soft shadow */
+    object-fit: cover;
+    position: absolute; /* Overlaps the bigger circle */
+    top: 130px; /* Moves down slightly */
+    right: 300px; /* Moves it slightly to the left */
+}
+
+/* 🔵 Decorative Circle Underneath */
+.explore-page .decorative-glow {
+    width: 250px; /* Slightly larger than glow 1 */
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgb(255, 104, 190, 0.3); /* Soft pink */
+    position: absolute;
+    top: 30px; /* Adjust as needed */
+    right: 270px; /* Moves it slightly right */
+    z-index: -1; /* Places it behind the other circles */
+}
+
+/* 🌈 Left-Aligned Text Beside Circles */
+.explore-page .text-container.left-glow {
+    position: absolute;
+    left: 10%; /* Positions it properly on the left */
+    top: 160%; /* Centers vertically */
+    transform: translateY(-50%); /* Ensures perfect centering */
+    max-width: 300px; /* Expands width a little for balance */
+    text-align: right;
+}
+
+/* 🎨 Heading Styling */
+.explore-page .text-container.left-glow h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #753b61; /* Deep pinkish-purple */
+}
+
+/* ✨ Short Description */
+.explore-page .text-container.left-glow p {
+    font-size: 24px;
+    color: #444; /* Soft gray for readability */
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/* 🌙 Packaging Effect for Images */
+.explore-page .packaging-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns images to the left */
+}
+
+/* Large Circle (skin 1) */
+.explore-page .packaging-1 {
+    width: 400px; /* Large size */
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    object-fit: cover;
+    position: relative; /* Ensures proper stacking */
+}
+
+/* Smaller Circle (skin 1.1) Overlapping */
+.explore-page .packaging-1-1 {
+    width: 250px; /* Smaller size */
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: -15px 15px 40px rgba(0, 0, 0, 0.15); /* Soft shadow */
+    object-fit: cover;
+    position: absolute; /* Overlaps the bigger circle */
+    top: 130px; /* Moves down slightly */
+    left: 300px; /* Moves it slightly to the right */
+}
+
+/* 🔵 Decorative Circle Underneath */
+.explore-page .decorative-packaging {
+    width: 250px; /* Slightly larger than packaging 1 */
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgb(255, 104, 190, 0.3); /* Soft pink */
+    position: absolute;
+    top: 30px; /* Adjust as needed */
+    left: 270px; /* Moves it slightly left */
+    z-index: -1; /* Places it behind the other circles */
+}
+
+/* 🌈 Right-Aligned Text Beside Circles */
+.explore-page .text-container.right-packaging {
+    position: absolute;
+    right: 10%; /* Moves it beside the circles */
+    top: 200%; /* Adjusts vertical placement */
+    max-width: 300px; /* Keeps text compact */
+    text-align: left;
+}
+
+/* 🎨 Heading Styling */
+.explore-page .text-container.right-packaging h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #753b61; /* Deep pinkish-purple */
+}
+
+/* ✨ Short Description */
+.explore-page .text-container.right-packaging p {
+    font-size: 24px;
+    color: #444; /* Soft gray for readability */
+    margin-top: 10px;
+}
