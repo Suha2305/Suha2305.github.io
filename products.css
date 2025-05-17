@@ -1,6 +1,6 @@
-/* 🌈 Apply background ONLY to products.html */
+
 body {
-    background: url('background\ products\ 1.webp'); /* Ensure the path matches your image */
+    background: url('background\ products\ 1.webp'); 
     background-size: cover; /* Ensures full coverage */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
@@ -21,7 +21,7 @@ body::before {
     z-index: -1;
 }
 
-/* 🎀 Hero Banner Styling */
+/* Banner  */
 #products-banner {
     width: 100%;
     display: flex;
@@ -32,7 +32,7 @@ body::before {
     margin-bottom: 150px;
 }
 
-/* 🏠 Banner Container */
+/* Banner Container */
 .banner-container {
     width: 100%;
     text-align: center;
@@ -41,7 +41,7 @@ body::before {
     max-height: 350px;
 }
 
-/* 🌥️ Banner Image Styling */
+/*  Banner Image */
 .banner-container img {
     width: 100vw; /* Covers full width */
     max-height: 350px;
@@ -51,7 +51,7 @@ body::before {
     border-top-left-radius: 100px; /* Creates curve on top-left */
 }
 
-/* 🌸 Pink Box for Heading */
+/* Heading Box*/
 .pink-box {
     position: absolute;
     top: 60px;
@@ -67,7 +67,7 @@ body::before {
 
 
 
-/* 🌟 Navigation Links (Fixed to Stay on the Right Side) */
+/* Navigation Links  */
 .nav-links {
     position: absolute;
     top: 60px;  /* Aligns with the pink box */
@@ -93,14 +93,14 @@ body::before {
 
 
 
-/* 🌸 Ensure Everything Fits Under the Banner */
+/* Ensure Everything Fits Under the Banner */
 #eyes-section, #face-section, #lips-section {
     text-align: center;
     margin: 50px auto; /* Keeps sections neatly spaced */
     padding-top: 20px; /* Adds space below banner */
 }
 
-/* 🏷️ Section Headings */
+/* Section Headings */
 h2 {
     font-size: 28px;
     margin-bottom: 30px;
@@ -109,13 +109,13 @@ h2 {
     border-radius: 20px;
 }
 
-/* 🎥 Slider Container */
+/* Slider Container */
 .slider-container {
     display: flex;
     justify-content: center;
 }
 
-/* 🏠 Product Wrapper */
+/* Product Wrapper */
 .product-wrapper {
     display: flex;
     justify-content: center;
@@ -124,7 +124,7 @@ h2 {
     width: 80%;
 }
 
-/* 📦 Product Box */
+/* Product Box */
 .product-box {
     width: 200px;
     height: 200px;
@@ -133,7 +133,7 @@ h2 {
     align-items: center;
 }
 
-/* 🖼️ Product Image */
+/* Product Image */
 .product-image {
     width: 100%;
     height: 100%;
@@ -171,7 +171,7 @@ h2 {
 .footer-divider {
     border: none;
     height: 2px;
-    background-color: #aaa; /* Darker separator */
+    background-color: #56265b; /* Darker separator */
     margin: 40px 0;
 }
 
@@ -190,7 +190,7 @@ h2 {
     height: auto;
 }
 
-/* "Upward ↑" Navigation */
+/* Upward ↑Navigation */
 .footer-nav {
     text-align: right;
 }
@@ -241,7 +241,7 @@ h2 {
 
 
 
-/* Second Footer: Socials */
+/* 2nd Footer: Socials */
 #socials-footer {
     width: 100%;
     background-color: #800080; /* Essence purple */
