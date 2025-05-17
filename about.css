@@ -1,4 +1,4 @@
-/* 🌸 Set White Background */
+/* For a White Background */
 body {
     background-color: #ffffff;
     font-family: "Poiret One", sans-serif;
@@ -6,7 +6,7 @@ body {
     font-weight: 600;
 }
 
-/* 📌 About Banner */
+/* Banner */
 #about-banner {
     position: relative;
     width: 100%;
@@ -23,14 +23,14 @@ body {
     border-top-left-radius: 100px;
 }
 
-/* 🏷️ About Section */
+/* About Section */
 #about-section {
     max-width: 600px;
     margin: auto;
     padding: 20px;
 }
 
-/* 🌟 Headings */
+/* Headings */
 h2 {
     font-size: 28px;
     font-weight: bold;
@@ -38,14 +38,14 @@ h2 {
     margin-bottom: 15px;
 }
 
-/* 📝 Text */
+/* Text */
 p {
     font-size: 18px;
     color: #555;
     line-height: 1.6;
 }
 
-/* 🎀 Core Values List */
+/* List */
 ul {
     list-style: none;
     padding: 0;
@@ -60,7 +60,7 @@ ul li {
 
 
 
-/* 🌸 Pink Box Styling */
+/* Heading box */
 .pink-box {
     position: absolute;
     top: 60px;
@@ -74,11 +74,11 @@ ul li {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* 🌟 Navigation Links (Fixed to Stay on the Right Side) */
+/*  Navigation Links  */
 .nav-links {
     position: absolute;
-    top: 60px;  /* Aligns with the pink box */
-    right: 80px; /* Ensures placement on the right */
+    top: 60px; 
+    right: 80px; 
     display: flex;
     gap: 30px;
 }
@@ -91,20 +91,21 @@ ul li {
     transition: 0.3s ease-in-out;
 }
 
+/*  colour changing when hovered */
 .nav-links a:hover {
     color: #4c2449;
 }
 
-/* Footer Section */
+/* Footer Section Starts */
 #footer {
     width: 100%;
     padding: 30px;
     text-align: left; /* Aligns everything to the left */
-    color: black; /* Neutral styling */
+    color: black; 
     margin-left: -30px;
 }
 
-/* Divider Lines */
+/* Divider Lines to seperte footer */
 .footer-divider {
     border: none;
     height: 2px;
@@ -127,7 +128,7 @@ ul li {
     height: auto;
 }
 
-/* "Upward ↑" Navigation */
+/* "Upward" */
 .footer-nav {
     text-align: right;
 }
@@ -135,7 +136,7 @@ ul li {
 .footer-nav a {
     color: black;
     font-size: 18px;
-    text-decoration: underline; /* Underlines "Upward ↑" */
+    text-decoration: underline; 
     font-weight: bold;
 }
 
@@ -167,21 +168,21 @@ ul li {
     font-weight: bold;
 }
 
-/* Light Divider Between Quick Links */
+/* Divider Between Quick Links For Organization */
 .light-divider {
     border: none;
     height: 1px;
-    background-color: #cecece; /* Light grey for subtle separation */
+    background-color: #cecece; /* Light grey separation */
     margin: 5px 0;
 }
 
 
 
 
-/* Second Footer: Socials */
+/* Social's footer */
 #socials-footer {
     width: 100%;
-    background-color: #800080; /* Essence purple */
+    background-color: #800080; 
     padding: 30px;
     text-align: center;
     color: white;
@@ -203,7 +204,7 @@ ul li {
     margin-bottom: 20px;
 }
 
-/* Ensure All Icons Are the Same Size */
+/* To Make Sure All Icons Are the Same Size */
 .social-icons a img {
     width: 30px; /* Fixed width for consistency */
     height: 30px; /* Fixed height to prevent resizing */
@@ -211,6 +212,7 @@ ul li {
     transition: transform 0.3s;
 }
 
+/* Zooming effect*/ 
 .social-icons a img:hover {
     transform: scale(1.2); /* Slight zoom effect on hover */
 }
